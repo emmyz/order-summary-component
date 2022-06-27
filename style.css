@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+    min-height: 100vh;
+}
+
+.container{
+    background: white;
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.summary {
+    margin: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary .heading{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.summary .description{
+    font-weight: 500;
+    font-size: 16px;
+    color: #717FA6;
+    text-align: center;
+    margin: 20px 0px;
+    line-height: 26px;
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 354px;
+    height: 98px;
+    background: #F7F9FF;
+    border-radius: 11px;
+}
+
+.plan img{
+    padding: 25px;
+}
+
+.plan .title{
+    font-weight: 900;
+    font-size: 16px;
+    color: #1F2E55;
+    margin-bottom: 6px;
+}
+
+.plan .pricing{
+    font-weight: 500;
+    font-size: 16px;
+    color: #717FA6;
+}
+
+.plan .change-btn{
+    
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #382AE1;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.plan .change-btn:hover{
+    color: #766CF1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.payment-btn{
+    background: #382AE1;
+    color: white;
+    width: 354px;
+    height: 50px;
+    border: none;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    margin: 32px;
+    font-size: 15px;
+}
+
+.payment-btn:hover{
+    background: #766CF1;
+    cursor: pointer;
+}
+
+.cancel-btn{
+    font-weight: 900;
+    font-size: 15px;
+    color: #717FA6;
+    border: none;
+    background: none;
+}
+
+.cancel-btn:hover{
+    color: #1F2E55;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+
+    body{
+        background-image: url("./images/pattern-background-mobile.svg");
+    }
+
+    .container{
+        width: 327px;
+        height: 567px;
+    }
+
+    .illustration{
+        width: 327px;
+    }
+
+    .summary{
+        margin: 32px;
+    }
+
+    .summary .heading{
+        font-size: 22px;
+    }
+    
+    .summary .description{
+        font-size: 15px;
+    }
+
+    .plan{
+        width: 279px;
+        height: 81px;
+    }
+
+    .plan .title, .plan .pricing{
+        font-size: 14px;
+    }
+
+    .payment-btn{
+        width: 279px;
+        margin: 24px;
+    }
+
+    
+}
