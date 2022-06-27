@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Project URL: [Order Summary Component](https://your-live-site-url.com)
+- Project URL: [Order Summary Component](https://emmyz.github.io/order-summary-component/)
 
 ### Built with
 
